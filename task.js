@@ -51,10 +51,10 @@ for (const student of students) {
 // Output: "John scored 85", "Alice scored 90"
 
 // !! Task 7
-const twoDArray = [
-  [1, 2],
-  [3, 4],
-  [5, 6],
-];
-twoDArray[1][0] = 99;
-console.log(twoDArray);
+// const twoDArray = [
+//   [1, 2],
+//   [3, 4],
+//   [5, 6],
+// ];
+// twoDArray[1][0] = 99;
+// console.log(twoDArray);
