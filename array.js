@@ -8,13 +8,13 @@ for (const fruit of fruits) {
   //   console.log(fruit);
 }
 
-// array reversal
-// const reversedFruits = fruits.slice().reverse();
-// console.log(reversedFruits);
-
 // array reverse using for loop
 const reversedFruits = [];
 for (let i = 0; i < fruits.length; i++) {
   reversedFruits.unshift(fruits[i]);
 }
-console.log(reversedFruits);
+// console.log(reversedFruits);
+
+// array reversal
+const reversedFruitsArray = fruits.reverse();
+console.log(reversedFruitsArray);
